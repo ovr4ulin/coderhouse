@@ -5,97 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impresion 3D</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <!-- navbar -->
-        <nav>
-            <img src="./img/logo.png" alt="logo">
-            <ul>
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="serie_x.html"><li>Serie X</li></a>
-                <a href="serie_y.html"><li>Serie Y</li></a>
-                <a href="serie_z.html"><li>Serie Z</li></a>
-                <a href="nosotros.html"><li>Nosotros</li></a>
-                <a href="contacto.html"><li>Contacto</li></a>
+        <nav class="navbar">
+            <img class="navbar__logo" src="./img/logo.png" alt="logo">
+            <ul class="navbar__ul">
+                <a class="navbar__li" href="index.html"><li>Inicio</li></a>
+                <a class="navbar__li" href="serie_x.html"><li>Serie X</li></a>
+                <a class="navbar__li" href="serie_y.html"><li>Serie Y</li></a>
+                <a class="navbar__li" href="serie_z.html"><li>Serie Z</li></a>
+                <a class="navbar__li" href="nosotros.html"><li>Nosotros</li></a>
+                <a class="navbar__li" href="contacto.html"><li>Contacto</li></a>
             </ul>
         </nav>
         <!-- slider -->
-        <div>
-            <img src="img/banner_inicio.PNG" alt="banner_inicio">
-            <h1>Impresion 3D</h1>
-            <h2>Lideres en Latino America</h2>
+        <div class="slider">
+            <img class="slider__image" src="img/banner_inicio.PNG" alt="banner_inicio">
+            <h1 class="slider__title">Impresion 3D</h1>
+            <h2 class="slider__subtitle">Lideres en Latino America</h2>
         </div>
     </header>
-    <main>
+    <main class="content">
         <!-- Tarjeta Serie X -->
-        <div>
-            <img src="./img/render_nebula.webp" alt="serie_x">
-            <h2>Serie X</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
-            <a href="serie_x.html"><button>Descubre la serie X</button></a>
+        <div class="card">
+            <img class="card__image" src="./img/render_nebula.webp" alt="serie_x">
+            <h2 class="card__title">Serie X</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
+            <a class="card__button" href="serie_x.html"><button>Descubre la serie X</button></a>
         </div>
         <!-- Tarjeta Serie Y -->
-        <div>
-            <img src="./img/render_nebula_plus.webp" alt="serie_y">
-            <h2>Serie Y</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
-            <a href="serie_y.html"><button>Descubre la serie Y</button></a>
+        <div class="card">
+            <img class="card__image" src="./img/render_nebula_plus.webp" alt="serie_y">
+            <h2 class="card__title">Serie Y</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
+            <a class="card__button" href="serie_y.html"><button>Descubre la serie Y</button></a>
         </div>
         <!-- Tarjeta Serie Z -->
-        <div>
-            <img src="./img/render_cosmos.webp" alt="serie_z">
-            <h2>Serie Z</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
-            <a href="serie_z.html"><button>Descubre la serie Z</button></a>
+        <div class="card">
+            <img class="card__image" src="./img/render_cosmos.webp" alt="serie_z">
+            <h2 class="card__title">Serie Z</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio autem ut, quaerat veritatis ipsa rem neque iusto non perferendis quibusdam quas corporis sint deleniti expedita labore obcaecati numquam possimus veniam.</p>
+            <a class="card__button" href="serie_z.html"><button>Descubre la serie Z</button></a>
         </div>
     </main>
-    <footer>
-        <h2>Lideres en latinoamerica</h2>
-        <span>trimaker-instragram</span>
-        <span>trimaker-facebook</span>
-        <span>trimaker-linkedin</span>
-        <ul>
-            <a href="index.html"><li>Inicio</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+    <footer class="footer">
+        <div class="footer__column">
+            <h2 class="footer__title">Lideres en latinoamerica</h2>
+            <p class="footer__social">trimaker-instragram</p>
+            <p class="footer__social">trimaker-facebook</p>
+            <p class="footer__social">trimaker-linkedin</p>
+        </div>
+        <ul class="footer__column">
+            <a class="footer__section" href="index.html"><li>Inicio</li></a>
+            <a class="footer__section" href="index.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="index.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="index.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="index.html"><li>seccion_4</li></a>
         </ul>
-        <ul>
-            <a href="serie_x.html"><li>Serie X</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+        <ul class="footer__column">
+            <a class="footer__section" href="serie_x.html"><li>Serie X</li></a>
+            <a class="footer__section" href="serie_x.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="serie_x.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="serie_x.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="serie_x.html"><li>seccion_4</li></a>
         </ul>
-        <ul>
-            <a href="serie_y.html"><li>Serie Y</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+        <ul class="footer__column">
+            <a class="footer__section" href="serie_y.html"><li>Serie Y</li></a>
+            <a class="footer__section" href="serie_y.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="serie_y.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="serie_y.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="serie_y.html"><li>seccion_4</li></a>
         </ul>
-        <ul>
-            <a href="serie_z.html"><li>Serie Z</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+        <ul class="footer__column">
+            <a class="footer__section" href="serie_z.html"><li>Serie Z</li></a>
+            <a class="footer__section" href="serie_z.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="serie_z.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="serie_z.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="serie_z.html"><li>seccion_4</li></a>
         </ul>
-        <ul>
-            <a href="nosotros.html"><li>Nosotros</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+        <ul class="footer__column">
+            <a class="footer__section" href="nosotros.html"><li>Nosotros</li></a>
+            <a class="footer__section" href="nosotros.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="nosotros.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="nosotros.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="nosotros.html"><li>seccion_4</li></a>
         </ul>
-        <ul>
-            <a href="contacto.html"><li>Contacto</li></a>
-            <li>seccion_1</li>
-            <li>seccion_2</li>
-            <li>seccion_3</li>
-            <li>seccion_4</li>
+        <ul class="footer__column">
+            <a class="footer__section" href="contacto.html"><li>Contacto</li></a>
+            <a class="footer__section" href="contacto.html"><li>seccion_1</li></a>
+            <a class="footer__section" href="contacto.html"><li>seccion_2</li></a>
+            <a class="footer__section" href="contacto.html"><li>seccion_3</li></a>
+            <a class="footer__section" href="contacto.html"><li>seccion_4</li></a>
         </ul>
     </footer>
 </body>
